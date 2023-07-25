@@ -1,9 +1,12 @@
-import Counter from './components/counter/Counter';
+import CreateTask from './components/tasks/create-task';
+import TaskList from './components/tasks/task-list';
 
 function App() {
   return (
     <div>
-      <Counter />
+      <TaskList />
+      <hr />
+      <CreateTask />
     </div>
   );
 }
